@@ -1,2 +1,0 @@
-# gitspace
-add linux gitspace
