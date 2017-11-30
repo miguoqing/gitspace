@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jenkins-jmeter</groupId>
+  <artifactId>test.dmall</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>test.dmall</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <mypage.jmx>classpath:mypage.jmx</mypage.jmx>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+ 
+    <dependency>
+    <groupId>com.lazerycode.jmeter</groupId>
+    <artifactId>jmeter-maven-plugin</artifactId>
+    <version>2.5.0</version>
+    </dependency>
+    <dependency>
+    <groupId>com.lazerycode.jmeter</groupId>
+      	<artifactId>jmeter-analysis-maven-plugin</artifactId>
+      	<version>1.0.4</version>
+      	 </dependency>
+  </dependencies>
+   
+  <!--jmeter-maven-plugin -->
+  
+<build>
+    <plugins>
+        <plugin>
+                    <groupId>com.lazerycode.jmeter</groupId>
+                    <artifactId>jmeter-maven-plugin</artifactId>
+                    <version>2.5.0</version>
+                    <executions>
+                        <execution>
+                            <id>jmeter-tests</id>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>jmeter</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                     <testFilesIncluded>
+                        <testFilesIncluded>${mypage.jmx}</testFilesIncluded>
+                     </testFilesIncluded>
+                     <appendResultsTimestamp>yyyy-MM-dd-ss</appendResultsTimestamp>
+                     <resultsDirectory>jmeter/results</resultsDirectory>
+                     <ignoreResultFailures>true</ignoreResultFailures>
+                     <remoteConfig>
+                       <startServersBeforeTests>ture</startServersBeforeTests>
+                       <serverList>10.12.7.21:1099</serverList>
+                       <stopServersAfterTests>false</stopServersAfterTests>
+                     </remoteConfig>
+                    </configuration>
+    </plugin>
+    <plugin>
+      	<groupId>com.lazerycode.jmeter</groupId>
+      	<artifactId>jmeter-analysis-maven-plugin</artifactId>
+      	<version>1.0.4</version>
+      	<executions>
+      	        <execution>
+      	            <goals>
+      	               <goal>analyze</goal>
+      	            </goals>
+      	            <phase>test</phase>
+      	            <configuration>
+      	                 <source>*</source>
+      	                 <targetDirectory>jmeter/reports</targetDirectory>
+      	            </configuration>
+      	        </execution>
+      	        
+      	</executions>
+    </plugin>
+    </plugins>
+    </build>
+   
+</project>
