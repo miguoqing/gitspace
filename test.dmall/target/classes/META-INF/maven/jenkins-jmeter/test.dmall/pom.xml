@@ -59,8 +59,8 @@
                      <testFilesIncluded>
                         <jMeterTestFile>resources/*.jmx</jMeterTestFile>
                      </testFilesIncluded>
-                     <appendResultsTimestamp>yyyy-MM-dd-ss</appendResultsTimestamp>
-                     <resultsDirectory>jmeter/results</resultsDirectory>
+                     <appendResultsTimestamp>true</appendResultsTimestamp>
+                     <resultsDirectory>/tmp/jmeter</resultsDirectory>
                      <ignoreResultFailures>true</ignoreResultFailures>
                      <remoteConfig>
                        <startServersBeforeTests>ture</startServersBeforeTests>
@@ -69,6 +69,7 @@
                      </remoteConfig>
                     </configuration>
     </plugin>
+    <!--  
     <plugin>
       	<groupId>com.lazerycode.jmeter</groupId>
       	<artifactId>jmeter-analysis-maven-plugin</artifactId>
@@ -79,14 +80,16 @@
       	               <goal>analyze</goal>
       	            </goals>
       	            <phase>test</phase>
-      	            <configuration>
-      	                 <source>*</source>
-      	                 <targetDirectory>jmeter/reports</targetDirectory>
-      	            </configuration>
+      	                 <configuration>
+                              <source>${project.build.directory}/**/*.jtl</source>
+                              <targetDirectory>${project.build.directory}/jmeter/test_report</targetDirectory>
+                              <processAllFilesFound>true</processAllFilesFound>
+                         </configuration>
       	        </execution>
       	        
       	</executions>
     </plugin>
+     -->
     </plugins>
 </build>
    
