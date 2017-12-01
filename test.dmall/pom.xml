@@ -60,7 +60,7 @@
                         <jMeterTestFile>resources/*.jmx</jMeterTestFile>
                      </testFilesIncluded>
                      <appendResultsTimestamp>true</appendResultsTimestamp>
-                     <resultsDirectory>/tmp/jmeter</resultsDirectory>
+                     <resultsDirectory>/target/jmeter/results/</resultsDirectory>
                      <ignoreResultFailures>true</ignoreResultFailures>
                      <remoteConfig>
                        <startServersBeforeTests>ture</startServersBeforeTests>
