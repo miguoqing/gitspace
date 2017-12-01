@@ -1,1 +1,1 @@
-{"resultFilesLocations":["D:\\tmp\\jmeter\\resources/mypage-20171201.jtl","D:\\tmp\\jmeter\\resources/saoma-20171201.jtl"],"resultsOutputIsCSVFormat":false,"generateReports":false}
+{"resultFilesLocations":["/target/jmeter/results/resources_mypage-20171201.jtl","/target/jmeter/results/resources_saoma-20171201.jtl"],"resultsOutputIsCSVFormat":false,"generateReports":false}
