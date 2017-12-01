@@ -12,7 +12,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <mypage.jmx>classpath:mypage.jmx</mypage.jmx>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+	<jdk.version>1.8</jdk.version>
   </properties>
 
   <dependencies>
@@ -55,7 +57,7 @@
                     </executions>
                     <configuration>
                      <testFilesIncluded>
-                        <testFilesIncluded>${mypage.jmx}</testFilesIncluded>
+                        <jMeterTestFile>resources/*.jmx</jMeterTestFile>
                      </testFilesIncluded>
                      <appendResultsTimestamp>yyyy-MM-dd-ss</appendResultsTimestamp>
                      <resultsDirectory>jmeter/results</resultsDirectory>
@@ -86,6 +88,6 @@
       	</executions>
     </plugin>
     </plugins>
-    </build>
+</build>
    
 </project>
