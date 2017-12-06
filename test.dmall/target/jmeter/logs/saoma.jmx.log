@@ -1,28 +1,28 @@
-2017-12-01 18:21:17,250 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2017-12-01 18:21:17,262 INFO o.a.j.JMeter: Setting System property: sun.net.http.allowRestrictedHeaders=true
-2017-12-01 18:21:17,267 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2017-12-01 18:21:17,267 INFO o.a.j.JMeter: Version 3.3 r1808647
-2017-12-01 18:21:17,267 INFO o.a.j.JMeter: java.version=1.8.0_60
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: os.name=Linux
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: os.arch=amd64
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: os.version=2.6.32-696.el6.x86_64
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: file.encoding=UTF-8
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: Max memory     =514850816
-2017-12-01 18:21:17,268 INFO o.a.j.JMeter: Available Processors =4
-2017-12-01 18:21:17,271 INFO o.a.j.JMeter: Default Locale=English (United States)
-2017-12-01 18:21:17,271 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2017-12-01 18:21:17,272 INFO o.a.j.JMeter: JMeterHome=/home/git/gitstudyspace/test.dmall/target/jmeter
-2017-12-01 18:21:17,272 INFO o.a.j.JMeter: user.dir  =/home/git/gitstudyspace/test.dmall/target/jmeter/bin
-2017-12-01 18:21:17,272 INFO o.a.j.JMeter: PWD       =/home/git/gitstudyspace/test.dmall/target/jmeter/bin
-2017-12-01 18:21:17,272 INFO o.a.j.JMeter: IP: 10.12.7.21 Name: bj_test_007021 FullName: bj_test_007021
-2017-12-01 18:21:17,274 INFO o.a.j.s.FileServer: Default base='/home/git/gitstudyspace/test.dmall/target/jmeter/bin'
-2017-12-01 18:21:17,274 INFO o.a.j.s.FileServer: Set new base='/home/git/gitstudyspace/test.dmall/target/jmeter/testFiles/resources'
-2017-12-01 18:21:17,399 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2017-12-01 18:21:17,408 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2017-12-01 18:21:17,412 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
-2017-12-01 18:21:17,417 INFO o.a.j.s.SaveService: Loading file: /home/git/gitstudyspace/test.dmall/target/jmeter/testFiles/resources/saoma.jmx
-2017-12-01 18:21:17,501 ERROR o.a.j.JMeter: Error in NonGUIDriver
+2017-12-06 14:56:16,670 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-12-06 14:56:16,684 INFO o.a.j.JMeter: Setting System property: sun.net.http.allowRestrictedHeaders=true
+2017-12-06 14:56:16,687 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: Version 3.3 r1808647
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: java.version=1.8.0_60
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: os.name=Linux
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: os.arch=amd64
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: os.version=2.6.32-696.el6.x86_64
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: Max memory     =514850816
+2017-12-06 14:56:16,688 INFO o.a.j.JMeter: Available Processors =4
+2017-12-06 14:56:16,691 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-12-06 14:56:16,691 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-12-06 14:56:16,691 INFO o.a.j.JMeter: JMeterHome=/home/git/gitstudyspace/test.dmall/target/jmeter
+2017-12-06 14:56:16,691 INFO o.a.j.JMeter: user.dir  =/home/git/gitstudyspace/test.dmall/target/jmeter/bin
+2017-12-06 14:56:16,691 INFO o.a.j.JMeter: PWD       =/home/git/gitstudyspace/test.dmall/target/jmeter/bin
+2017-12-06 14:56:16,692 INFO o.a.j.JMeter: IP: 10.12.7.21 Name: bj_test_007021 FullName: bj_test_007021
+2017-12-06 14:56:16,694 INFO o.a.j.s.FileServer: Default base='/home/git/gitstudyspace/test.dmall/target/jmeter/bin'
+2017-12-06 14:56:16,694 INFO o.a.j.s.FileServer: Set new base='/home/git/gitstudyspace/test.dmall/target/jmeter/testFiles/resources'
+2017-12-06 14:56:16,820 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-12-06 14:56:16,830 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-12-06 14:56:16,833 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-12-06 14:56:16,838 INFO o.a.j.s.SaveService: Loading file: /home/git/gitstudyspace/test.dmall/target/jmeter/testFiles/resources/saoma.jmx
+2017-12-06 14:56:16,923 ERROR o.a.j.JMeter: Error in NonGUIDriver
 java.lang.IllegalArgumentException: Problem loading XML from:'/home/git/gitstudyspace/test.dmall/target/jmeter/testFiles/resources/saoma.jmx', missing class com.thoughtworks.xstream.converters.ConversionException: 
 ---- Debugging information ----
 cause-exception     : com.thoughtworks.xstream.converters.ConversionException
